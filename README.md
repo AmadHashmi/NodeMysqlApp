@@ -73,11 +73,11 @@ You can use tools like Postman or cURL to interact with the API. Here are some e
 
 ### Fetch all users:
 
-GET http://localhost:3000/api/v1/users
+GET: api/v1/users
 
 ### Create a new user:
 
-POST http://localhost:3000/api/v1/users
+POST: api/v1/users
 Content-Type: application/json
 
 {
@@ -88,11 +88,11 @@ Content-Type: application/json
 
 ### Fetch a single user by ID:
 
-GET http://localhost:3000/api/v1/users/1
+GET: api/v1/users/1
 
 ### Update a user by ID:
 
-PUT http://localhost:3000/api/v1/users/1
+PUT: api/v1/users/1
 Content-Type: application/json
 
 {
@@ -103,4 +103,4 @@ Content-Type: application/json
 
 ### Delete a user by ID:
 
-DELETE http://localhost:3000/api/v1/users/1
+DELETE: api/v1/users/1
