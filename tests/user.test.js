@@ -1,6 +1,5 @@
 const request = require("supertest");
-const app = require("../index"); // Assuming your Express app is exported from index.js
-const dbConn = require("../config/db.config");
+const app = require("../index");
 describe("User API Endpoints", () => {
   let createdUserId;
 
