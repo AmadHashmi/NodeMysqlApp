@@ -1,7 +1,7 @@
 "use strict";
 const mysql = require("mysql");
 const dotenv = require("dotenv");
-dotenv.config(); // Load the .env file
+dotenv.config(); // Loading the .env file
 //local mysql db connection
 const dbConn = mysql.createConnection({
   host: process.env.DB_HOST,

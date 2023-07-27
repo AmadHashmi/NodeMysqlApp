@@ -63,7 +63,7 @@ User.delete = function (id, result) {
       console.log("error: ", err);
       result(err, null);
     } else {
-      // Check if the delete operation affected any rows
+      // Checking if the delete operation affected any rows
       if (res.affectedRows === 0) {
         // No rows were deleted, which means the user doesn't exist
         result({ message: "User not found" }, null);
