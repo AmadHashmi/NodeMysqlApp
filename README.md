@@ -26,12 +26,25 @@ npm install
 
 ## Database Configuration:
 
-Open the config/db.config.js file and update the database configuration with your MySQL credentials (host, user, password, database).
-Run the Application:
+### Create .env file:
 
-sql
-Copy code
+Create a new file named .env in the root directory of the project and add the following environment variables:
+
+```
+DB_HOST=your_mysql_host
+DB_USER=your_mysql_user
+DB_PASSWORD=your_mysql_password
+DB_DATABASE=your_mysql_database
+```
+
+Open the config/db.config.js file and update the database configuration with .env variable
+
+## Run the Application:
+
+```
 npm start
+```
+
 The application will start, and you should see the message "Server is listening on port 3000" in the console.
 
 ## API Endpoints
