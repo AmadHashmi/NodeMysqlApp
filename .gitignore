@@ -1,0 +1,29 @@
+# Dependency directories
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+
+# Editor specific files
+.vscode/
+*.swp
+*.swo
+*.swp
+*.swo
+
+# Logs and data files
+*.log
+*.sqlite
+*.db
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
